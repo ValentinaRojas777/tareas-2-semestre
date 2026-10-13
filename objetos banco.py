@@ -20,7 +20,7 @@ class CuentaBancaria:
     def consultarSaldo(self) -> float:
         return self.saldo
 
-# Herencia
+#  Herencia
 class CuentaAhorros(CuentaBancaria):
     def __init__(self, numero_cuenta, titular, saldo=0, interes=0.02):
         super().__init__(numero_cuenta, titular, saldo)
