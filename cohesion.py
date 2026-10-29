@@ -1,17 +1,3 @@
-#baja cohesion:hace de todo y mezcla cosas que no tienen nada que ver 
-
-class Estudiante:
-    def __init__(self,nombre,nota1,nota2):
-        self.nombre = nombre
-        self.nota1 = nota1
-        self.nota2 = nota2
-
-    def calcular_promedio(self):
-        return (self.nota1 + self.nota2) /2
-
-    def imprimir_factura_Cafeteria(self):
-        print(" factura cafeteria")  #no tiene nada que ver con el estudiante
-
 
     #ALTA COHESION: tiene que ver con el estudiante y su promedio
 class Estudiante:
